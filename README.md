@@ -51,16 +51,17 @@ Object.forEach(obj, (key, value, obj) => {
 Object.isEmpty({a: 5, b: 'qwerty'}) // => false
 Object.isEmpty({}) // => true
 ```
-### .isObject(obj)
-Вернет **true**, если переданное значение (`obj`) является объектом.
-```js
-Object.isObject({a: 5, b: 'qwerty'}) // => true
-Object.isObject([6, 3, 10]) // => false
-```
 ## String
 ### .format(...)
 Возвращает отформатированную строку согласно заданному шаблону. Поддерживаются следующие спецификаторы: `%s`, `%d`, `%f`, `%b`. Для вещественных чисел доступно округление до заданного количества знаков после запятой.
 ```js
 'qwe %f %s %d %.2f %b'.format(7.342, 'rty', 111, 1.56786, '')
 // => qwe 7.342 rty 111 1.57 false
+```
+## Global
+### isObject(value)
+Вернет **true**, если переданное значение (`value`) является объектом.
+```js
+isObject({a: 5, b: 'qwerty'}) // => true
+isObject([6, 3, 10]) // => false
 ```
