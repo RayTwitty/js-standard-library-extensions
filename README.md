@@ -1,6 +1,10 @@
 # js-standard-library-extensions
 Набор расширений для стандартной библиотеки **JavaScript**. Добавлены функции для работы с массивами, числами, объектами и строками.
 ## Установка
+```bash
+npm install --save js-standard-library-extensions
+```
+## Подключение
 ```js
 require('js-standard-library-extensions')
 ```

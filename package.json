@@ -1,0 +1,19 @@
+{
+  "name": "js-standard-library-extensions",
+  "version": "1.0.0",
+  "description": "js-standard-library-extensions",
+  "main": "./lib/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://mounlion@github.com/mounlion/js-standard-library-extensions.git"
+  },
+  "author": "Fonov Sergei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mounlion/js-standard-library-extensions/issues"
+  },
+  "homepage": "https://github.com/mounlion/js-standard-library-extensions#readme"
+}
