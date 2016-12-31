@@ -1,8 +1,8 @@
 {
   "name": "js-standard-library-extensions",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "for Node.js",
-  "main": "./lib/main.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +10,12 @@
     "type": "git",
     "url": "git+https://RayTwitty@github.com/RayTwitty/js-standard-library-extensions.git"
   },
-  "author": "Evgeniy Litvinov",
+  "keywords": [
+    "JavaScript",
+    "stdlib",
+    "extensions"
+  ],
+  "author": "Evgeniy Litvinov <raytwitty@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/RayTwitty/js-standard-library-extensions/issues"
