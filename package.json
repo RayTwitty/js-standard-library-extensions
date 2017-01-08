@@ -1,6 +1,6 @@
 {
   "name": "js-standard-library-extensions",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "for Node.js",
   "main": "lib/index.js",
   "scripts": {
